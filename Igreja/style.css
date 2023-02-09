@@ -1,0 +1,147 @@
+@import url(hhttps://fonts.google.com/specimen/Alegreya+Sans);
+
+* {
+    margin: 0; /*espaço pra fora */
+    padding: 0; /*espaço pra dentro */
+    text-decoration: none;
+}
+.body{
+    display: flex;
+    font-size: 100%;
+    background: white;
+}
+
+.cabeçalho {
+    position: absolute; /*Todo elemento estático é posicionado alinhado pelo canto superior esquerdo no corpo do documento */
+    width: 1355px; /*Largura*/
+    height: 118px; /*Altura */
+    left: -30px; /*localização da class na pagina*/
+    top: 0px; /*Distancia do topo*/
+    background: #EB5C08; /*Cor de fundo*/
+}
+
+.cabeçalho-imagem {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 40px;
+    top: 0px;
+}
+
+.cabeçalho-menu {
+    display: flex; 
+    gap: 40px;
+    position: absolute;
+    width: 560px;
+    height: 29px;
+    left: 160px;
+    top: 45px;
+    font-family: 'Alegreya Sans';
+}
+
+.cabeçalho-menu-item {
+    font-size: 30px;
+    color: white;
+}
+
+.cabeçalho-menu-barra-de-pesquisa {
+    text-align: center;
+    font-weight: 590;
+    font-family: 'Alegreya Sans';
+    font-size: 25px;
+    position: absolute;
+    width: 563.72px;
+    height: 61px;
+    left: 600px;
+    top: -15px;
+    color: #EB5C08;
+    background: #FFFCFC;
+    border-radius: 90px;
+    border: 0px;
+    
+}
+
+.conteudo{
+    display: flex;
+    position: absolute;
+    font-size: 100%;
+    background-color: #FFFCFC;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    width: 1325px;
+    height: 81px;
+    left: 0px;
+    top: 118px;
+    background: #0F2D43;
+    mix-blend-mode: normal;
+}
+
+.botao-livro {
+    text-align: center;
+    font-weight: 595;
+    font-family: 'Alegreya Sans';
+    font-size: 25px;
+    position: fixed;
+    width: 485px;
+    height: 60px;
+    left: 5px;
+    top: 130px;
+    bottom: 822px;
+    background: #FFFFFF;
+    border-radius: 500px;
+    color: #EB5C08;
+}
+
+.botao-capitulo {
+    text-align: center;
+    font-weight: 595;
+    font-family: 'Alegreya Sans';
+    font-size: 25px;
+    position: fixed;
+    width: 138px;
+    height: 60px;
+    left: 600px;
+    top: 130px;
+    bottom: 822px;
+    background: #FFFFFF;
+    border-radius: 500px;
+    color: #EB5C08;
+}
+
+.botao-versao{
+    text-align: center;
+    font-weight: 595;
+    font-family: 'Alegreya Sans';
+    font-size: 25px;
+    position: fixed;
+    width: 485px;
+    height: 60px;
+    left: 835px;
+    top: 130px;
+    bottom: 822px;
+    color: #EB5C08;
+    
+    background: white;
+    border-radius: 50px;
+}
+
+.container-escrituras {
+    font-size: 20px;
+    font-family: 'Alegreya Sans';
+    font-weight: 5060;
+    border-radius: 1px;
+    display: flex;
+    position: fixed;
+    width: 1325px;
+    height: 40px;
+    left: 600px;
+    top: 230px;
+}
+
+.livro-capitulo {
+    position: absolute;
+    top: 40px;
+}
